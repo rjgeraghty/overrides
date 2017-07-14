@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.RStudio</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>RStudio</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>POLICY_TRIGGER</key>
+		<string>Install_RStudio</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Install the latest version of %NAME%.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>RStudio.png</string>
+		<key>pkg_path</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.novaksam.jss.RStudio</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.novaksam.jss.RStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a4c237b5bd6c0b6df8af292cb662933aa6277771</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/RStudio/RStudio.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>c58e0591e79200886d5493b8cc605423c9641d36cd49910030f9d46509f5f322</string>
+			</dict>
+			<key>com.github.rtrouton.download.RStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8d9f600c4da72973202e37687a9b5e86a6d94971</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/RStudio/RStudio.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>b4047231b262a2b35550a3ff25535d2df719a1f9b0b0135bdb6bd83604ffb9c9</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.RStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>42544a436263fd20e98dc343d47b09d1e0231558</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/RStudio/RStudio.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>44da43ce75c463c3920575355e5e8f4505549f1f972d91b5b1b41fc91c24ba3d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

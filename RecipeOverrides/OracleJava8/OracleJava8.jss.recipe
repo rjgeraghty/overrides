@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.OracleJava8</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Plugins and Frameworks</string>
+		<key>Comment</key>
+		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>OracleJava8</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.12.x,10.11.x,10.10.x,10.9.x,10.8.5,10.8.4,10.8.3,10.7.5,10.7.4,10.7.3</string>
+		<key>PKG_ID</key>
+		<string>com.oracle.jre</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Plugins and Frameworks</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Browser plugin to allow execution of Java applets.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>OracleJava8.png</string>
+		<key>version</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.OracleJava8</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.OracleJava8</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8e54b7fd5f5ed196709e787e104519b99a85624d</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OracleJava/OracleJava8.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>415895415df9f10ef8d97334c24adbeefacf7cd249b98a1d0417b1087da6ab6b</string>
+			</dict>
+			<key>com.github.autopkg.pkg.OracleJava8</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8e54b7fd5f5ed196709e787e104519b99a85624d</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/OracleJava/OracleJava8.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>6ff114479fc7cdeb2bcff4a788fbf8bdfe544a5309d16ca06bcb87c715ffefb9</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.OracleJava8</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2a37448b488cb1cc85437d081a3eaa813e9e42be</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/OracleJava8/OracleJava8.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>c0f263f5c889731abcae6b4644160c19e05e0c7348f715b18c00c86ac2b5e7f7</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

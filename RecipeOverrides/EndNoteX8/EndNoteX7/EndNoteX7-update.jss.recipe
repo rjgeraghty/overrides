@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.EndNoteX7-update</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>_Updates</string>
+		<key>DOWNLOAD_URL</key>
+		<string>http://download.endnote.com/downloads/%ENDNOTE_MAJOR_VERSION%/EndNote%ENDNOTE_MAJOR_VERSION%Installer.dmg</string>
+		<key>ENDNOTE_MAJOR_VERSION</key>
+		<string>X7</string>
+		<key>GROUP_NAME</key>
+		<string>App_%NAME%-update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-update.xml</string>
+		<key>NAME</key>
+		<string>EndNote X7</string>
+		<key>POLICY_CATEGORY</key>
+		<string>_Updates</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>EndNoteX7-update.policy.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>EndNote is the industry standard software tool for publishing and managing bibliographies, citations and references on the Windows and Macintosh desktop.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>EndNote X7.png</string>
+		<key>MAJOR_VERSION</key>
+		<string>17</string>
+		
+	</dict>
+	<key>ParentRecipe</key>
+	<string>local.jss.EndNoteX7</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>PkgBuildTester</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9b62af47d479f0c225cbc919e9b93a4a482d7e0e</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/PkgBuildTester.py</string>
+				<key>sha256_hash</key>
+				<string>d7b663d772db23c774a4247240bb461a79f2e447be638160bade9ad7bc72ab7c</string>
+			</dict>
+			<key>ResourceForkCopier</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bc351b8f3c54ccaf31482e282bc4372e0149ac7a</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/ResourceForkCopier.py</string>
+				<key>sha256_hash</key>
+				<string>b593657934cc1e94f6ab3da3585a711ae492c3ba5485f9de9867ea97ed96da67</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.EndNote</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d6483afbf8f282e6edd6dcaf76dd4e6ad4bf7dd5</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/ThomsonReuters/EndNote.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>f56fcfdad68c52306e041f009fa9d1924ce3f644b6ee2e38610b674533e18e70</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.EndNoteX7</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d48b3fdcd1e20b21dff6d827019460307a66949e</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/EndNote X7/EndNote X7.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>b7b9a4ac2caf7e1db532541984465fe72b43fe279a7c5b3ec60f75ff156e6022</string>
+			</dict>
+			<key>com.github.novaksam.pkg.EndNoteX7</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bc351b8f3c54ccaf31482e282bc4372e0149ac7a</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/EndNoteX7.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>766422162a0a62be450f182713d23ae9971d61011e57a67a0c1ccaba2b9978bc</string>
+			</dict>
+			<key>local.jss.EndNoteX7</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeOverrides/EndNoteX7.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>f888d4f78ce941bbf1a89139eb7ddfcf31cde9f85437fccdfd40c80ac7c492a8</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

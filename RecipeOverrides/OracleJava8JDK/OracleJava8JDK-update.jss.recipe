@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.OracleJava8JDK-update</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>_Updates</string>
+		<key>DESCRIPTION</key>
+		<string>The Java SE Development Kit lets you develop and deploy Java applications.</string>
+		<key>GROUP_NAME</key>
+		<string>App_%NAME%-update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-update.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/OracleJava8JDK.png</string>
+		<key>NAME</key>
+		<string>OracleJava8 JDK</string>
+		<key>ORACLE_LICENSE_COOKIE</key>
+		<string>oraclelicense=accept-securebackup-cookie</string>
+		<key>POLICY_CATEGORY</key>
+		<string>_Updates</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-update.xml</string>
+		<key>SEARCH_PATTERN</key>
+		<string>(?P&lt;url&gt;http://download.oracle.com/otn-pub/java/jdk/.*?/jdk-8u[0-9]+-macosx-x64.dmg)</string>
+		<key>SEARCH_URL</key>
+		<string>http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>local.jss.OracleJava8JDK</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.golbiga.jss.OracleJava8JDK</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1a7a57d195f6991a7172f8ddbd55fac351abba27</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.golbiga-recipes/JSS/OracleJava8JDK.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>d05056dfcd0a6dac701aaebe1e7126c47295c7bd2a6d6adfa3cb97a54affaba7</string>
+			</dict>
+			<key>com.github.hansen-m.download.OracleJava8JDK</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d3a808975310f861a49dedda4b4e8e82a0778393</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Oracle/OracleJava8JDK.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c9e8186528d1faf8869d1716d1ed01e454e419734d59cbad976bd20c0fe20529</string>
+			</dict>
+			<key>com.github.novaksam.pkg.OracleJava8JDK</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7d335cf161ebf1057679008a9991a8e2993348ce</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/OracleJava8JDK.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>467532d7eec5a2c230dac2d6b9d7cbb51e353f18a95ece7f52d2e7172c6ad824</string>
+			</dict>
+			<key>local.jss.OracleJava8JDK</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeOverrides/OracleJava8JDK.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>7c79c81b3d11f4e55e59813e7f653708c5bd15beeb59da4fa12f78b8b4851c0e</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

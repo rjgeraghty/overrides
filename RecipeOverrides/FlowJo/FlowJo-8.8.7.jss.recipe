@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.7.8.FlowJo-8</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>FlowJo 8.8.7</string>
+		<key>BUNDLE_ID</key>
+		<string>com.treestar.flowjo</string>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>DOWNLOAD_URL</key>
+		<string>http://localhost/FlowJo_8.8.7.dmg</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>FlowJo-8.8.7</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Flow cytometry data analysis.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>pkg_path</key>
+		<string></string>
+		<key>version</key>
+		<string>8.8.7</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.FlowJo</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>au.edu.svi.autopkg.download.FlowJo</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/FlowJo/FlowJo.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0fa675bbec47b12feb0c2eda9559fec02b2b787d5976c97ac0cb65ffceb5758b</string>
+			</dict>
+			<key>au.edu.svi.autopkg.pkg.FlowJo</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/FlowJo/FlowJo.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>f79aadb12b5e13ac664ff1c157da1f3520c73377d946d7e2d297c6f1d595d5f2</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.FlowJo</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/FlowJo/FlowJo.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>91ad4508d2d4c26cc147211a2d4a53f61285cb1d93e5bed9cd0c27b849f62ae5</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

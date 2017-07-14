@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.ImageStudioLite</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>JavaAppLauncher</string>
+		<key>BUNDLE_ID</key>
+		<string>Image Studio Lite</string>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<string>1</string>
+		<key>DOWNLOAD_URL</key>
+		<string>http://localhost/MacImageStudioLite_5.2.5.dmg</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>Image Studio Lite</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string></string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>app_path</key>
+		<string>/Applications/ImageStudioLite.app</string>
+		<key>pkg_path</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.ImageStudioLite</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>au.edu.svi.autopkg.download.ImageStudioLite</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/Image Studio Lite/Image Studio Lite.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>6cb36f61c8a22c78b4897df469dc37237c047249abe16d67e6376adf25de1349</string>
+			</dict>
+			<key>au.edu.svi.autopkg.pkg.ImageStudioLite</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/Image Studio Lite/Image Studio Lite.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>c755752ffcabc5cbcdb20c20f1a1d3889a84fd709413cb17a5505cf95dc8be4d</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.ImageStudioLite</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/Image Studio Lite/Image Studio Lite.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>f55f7d7d6b0737a909dbe62c3ac156e175f5f5ef87e6ec4053856b2ca75a49e5</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Cathode</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>com.secretgeometry.Cathode</string>
+		<key>CATEGORY</key>
+		<string>IT</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>Cathode</string>
+		<key>POLICY_CATEGORY</key>
+		<string>IT</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Vintage terminal emulator.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>http://store.secretgeometry.com/appcast.php?id=7</string>
+		<key>pkg_path</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Cathode</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>au.edu.svi.autopkg.download.Cathode</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/Cathode/Cathode.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3e5d747a4a0b18b6bc35f86a327f4b56a68cf81b97b500148d8d5fc863e8caec</string>
+			</dict>
+			<key>au.edu.svi.autopkg.pkg.Cathode</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/Cathode/Cathode.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>351d8eb01dc639a38192beba98d3b4c29defd4991a6442d077cfcc1f282087f8</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.Cathode</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/Cathode/Cathode.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>91aacec7fe14ade161acf4c18a727dc04e4879131fc12aa15bf5cb812994b95a</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

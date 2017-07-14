@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Platypus</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>org.sveinbjorn.Platypus</string>
+		<key>CATEGORY</key>
+		<string>IT</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>Platypus</string>
+		<key>POLICY_CATEGORY</key>
+		<string>IT</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Platypus is a developer tool for the Mac OS X operating system. It creates native Mac OS X applications from interpreted scripts such as shell scripts or Perl, Ruby and Python programs. This is done by wrapping the script in an application bundle along with a native executable binary that runs the script.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Platypus.png</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://sveinbjorn.org/files/appcasts/PlatypusAppcast.xml</string>
+		<key>pkg_path</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.jss.Platypus</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.jss.Platypus</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e5ce29aba1530c8ef3ce53c6116fcc3286855bb8</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Platypus/Platypus.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>ebb8e1c537282c34b79a7e763e7c53cf9de7b11359f0017e1eda0f7731eb3574</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.pkg.Platypus</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e5ce29aba1530c8ef3ce53c6116fcc3286855bb8</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Platypus/Platypus.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>c70cc396ad2a456f9e4cce2c70ce039e5421bd727cbb65ca7dafbdedbe1a746a</string>
+			</dict>
+			<key>com.github.peshay.download.Platypus</key>
+			<dict>
+				<key>git_hash</key>
+				<string>86f1fa3b54544b66b7213830daafa103777358e5</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.peshay-recipes/Platypus/Platypus.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>fa90f1431ebfcdd2d3258cd4e29d0b2d03f1ae19195c74cfbf4f0a581a831665</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

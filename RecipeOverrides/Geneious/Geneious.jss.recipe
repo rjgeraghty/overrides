@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Geneious</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>DESCRIPTION</key>
+		<string>Geneious is a powerful and comprehensive suite of molecular biology tools.</string>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<string>1</string>
+		<key>DOWNLOAD_BASE_URL</key>
+		<string>https://assets.geneious.com/installers/geneious</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/Geneious.png</string>
+		<key>MAJOR_VERSION</key>
+		<string>10</string>
+		<key>NAME</key>
+		<string>Geneious</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+		<key>RELEASE</key>
+		<string>release</string>
+		<key>VERSIONS_URL</key>
+		<string>https://desktop-links.geneious.com/assets/installers/geneious/GeneiousVersions.txt</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.geneious</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.n8felton.geneious.download</key>
+			<dict>
+				<key>git_hash</key>
+				<string>34e741113be66eaff83049b30bef41405bae12fb</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/Geneious/Geneious.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>7aad5383b22ee8a8ac656e80459523311027097a45ad14b992621f7faf58454c</string>
+			</dict>
+			<key>com.github.rtrouton.jss.geneious</key>
+			<dict>
+				<key>git_hash</key>
+				<string>579079a556ce2f87dd5b172e998a129fef136c1a</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/Geneious.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>d4f99456e61315be83f1982a6d7412e384ffce26c7b2c0f425c1dbc2a3aabe5a</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.geneious</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0e12dbbd3b766d14942ed20e6ef0902aa58268c6</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Geneious/Geneious.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>cf886d6558cf78fb4f1199648a868caee9f781339ba7d6dc910b666946d8ecb2</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

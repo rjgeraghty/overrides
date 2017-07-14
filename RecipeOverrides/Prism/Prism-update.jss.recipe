@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Prism-update</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>Prism %MAJOR_VERSION%</string>
+		<key>BUNDLE_ID</key>
+		<string>com.GraphPad.Prism</string>
+		<key>CATEGORY</key>
+		<string>_Updates</string>
+		<key>DOWNLOAD_BASE_URL</key>
+		<string>http://cdn.graphpad.com/downloads/prism</string>
+		<key>GROUP_NAME</key>
+		<string>App_%NAME%-update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-update.xml</string>
+		<key>MAJOR_VERSION</key>
+		<string>7</string>
+		<key>NAME</key>
+		<string>Prism</string>
+		<key>POLICY_CATEGORY</key>
+		<string>_Updates</string>
+		<key>POLICY_TEMPLATE</key>
+		<string> %RECIPE_DIR%/Prism-update.policy.xml</string>
+		<key>SCRIPT_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PrismLicense.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Scientific graphing and nonlinear curve regression tool.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>local.jss.Prism</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.Prism</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a67627fe7e2cbe914e6742e4a31bd8fac106d696</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Prism/Prism.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>117eba19a9cdb1f040b4a379474072d01324f34c51e6c00e060177597cfab463</string>
+			</dict>
+			<key>com.github.rtrouton.jss.Prism</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ed86c70812f021796f7fd7980d4039a0ea40558c</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/Prism.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>463cef5607a9d6548a228ee62370f4c8f4052d19b471c639eda1447938103b9f</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.Prism</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ed86c70812f021796f7fd7980d4039a0ea40558c</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Prism/Prism.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>bcf6a9e40f57acef137921fbfa577c7d0f14e51ae27b151ea7bddb5b26d9a43a</string>
+			</dict>
+			<key>local.jss.Prism</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeOverrides/Prism/Prism.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>1932603ed3435b8ff561923be762aa56198467e2fa15e65147a9bd8fb98918d1</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

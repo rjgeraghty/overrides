@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.MacVector</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>DESCRIPTION</key>
+		<string>MacVector is a comprehensive Macintosh application that provides sequence editing, primer design, internet database searching, protein analysis, sequence confirmation, multiple sequence alignment, phylogenetic reconstruction, coding region analysis, and a variety of other functions.</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/MacVector.png</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>MacVector.app</string>
+		<key>NAME</key>
+		<string>MacVector</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://www.macvector.com/macvectorappcast.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.golbiga.jss.MacVector</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.golbiga.download.MacVector</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2f8ea0e74905650cd1b9e6d1f59de65a5f099e59</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.golbiga-recipes/MacVector/MacVector.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>b6a0a9315a3d531187fb82bd97929e95a15854e9d8f17c2a61d853e7ddf3a2a9</string>
+			</dict>
+			<key>com.github.golbiga.jss.MacVector</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8d36dd9da54fecbd3c61b84472c94f69cfc2cade</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.golbiga-recipes/JSS/MacVector.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>185926613f1bc724edcd7f93e1c90ac174fe4473283acd0d3491bbb713b949e6</string>
+			</dict>
+			<key>com.github.golbiga.pkg.MacVector</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8d36dd9da54fecbd3c61b84472c94f69cfc2cade</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.golbiga-recipes/MacVector/MacVector.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>4d55467b99427136eaf4046bda59969dccfb642e3d7d23c077d88ee6adbd679d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

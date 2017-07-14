@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Image Lab</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>com.bio-rad.ImageLab</string>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>DOWNLOAD_URL</key>
+		<string>http://localhost/ImageLab-6.dmg</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>Image Lab</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Includes more than 40 visual effects for images.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>pkg_path</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.ImageLab</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>au.edu.svi.autopkg.download.ImageLab</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/Image Lab/Image Lab.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>a4c25ce48c47ea870e41630de2d65f2c35e3e77469d24ebc7a2f501aba1ad7b6</string>
+			</dict>
+			<key>au.edu.svi.autopkg.pkg.ImageLab</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/Image Lab/Image Lab.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>384a4c420d2ebd15ffef43feb9a21342534a57918d5dcc97e699b8667e8a4663</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.ImageLab</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/Image Lab/Image Lab.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>7a9ccca3d7ce7bd6e5955e3e5ddd90dde687e07273f04cf4e97c503aa80d1033</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

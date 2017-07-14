@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.EndNoteX8-update</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>_Updates</string>
+		<key>DOWNLOAD_URL</key>
+		<string>http://download.endnote.com/downloads/X8/EndNoteX8Installer.dmg</string>
+		<key>GROUP_NAME</key>
+		<string>App_%NAME%-update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-update.xml</string>
+		<key>MAJOR_VERSION</key>
+		<string>18</string>
+		<key>NAME</key>
+		<string>EndNote X8</string>
+		<key>POLICY_CATEGORY</key>
+		<string>_Updates</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>EndNoteX8-update.policy.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>EndNote is the industry standard software tool for publishing and managing bibliographies, citations and references on the Windows and Macintosh desktop.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>EndNoteX8.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>local.jss.EndNoteX8</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.EndNoteX8</key>
+			<dict>
+				<key>git_hash</key>
+				<string>24f46da361a82dba7c9672fac3750c88c9dc58f3</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/EndNote/EndNoteX8.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>593cec6bb56adbf02b09fc98d32761f501b5e71c2771e5816ba527f7827f9c25</string>
+			</dict>
+			<key>com.github.rtrouton.jss.EndNoteX8</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a6168e7756d7a24a751efc2712e4639600b55da7</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/EndNoteX8.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>e386be9da0a4f5628f2ce41280717ef05de905c6a9b90e2856e08942ea72027a</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.EndNoteX8</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b1d17be00bc342642b4cacbc2b88ae8d85d16035</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/EndNote/EndNoteX8.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>cfe62e955b2d1b6db8b0bb607ceaf96339c0472bbed68958d5b8b073b7c0ff8b</string>
+			</dict>
+			<key>local.jss.EndNoteX8</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeOverrides/EndNoteX8/EndNoteX8.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>b250ac759cdda1a888884befd560f7ed967cca380d5776d90814238502f0ca42</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

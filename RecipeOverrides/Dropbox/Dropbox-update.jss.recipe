@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Dropbox-update</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>_Updates</string>
+		<key>GROUP_NAME</key>
+		<string>App_%NAME%-update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-update.xml</string>
+		<key>NAME</key>
+		<string>Dropbox</string>
+		<key>POLICY_CATEGORY</key>
+		<string>_Updates</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-update.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Dropbox.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>local.jss.Dropbox</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.dropbox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>29e505418bf6e344ae43a4d5c847638153d142d1</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Dropbox/Dropbox.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>6b3f290f226e7ae1e47b1acc0494c3c395ecb15c755803d24776cbbdf97157af</string>
+			</dict>
+			<key>com.github.autopkg.pkg.dropbox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f18fdd2c261bd8652782fb07bbe2c3f109685ec5</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Dropbox/Dropbox.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>d7638b7d47f9c4740db8f9f253e1aaf158efe8ae27bb65fa36a677e3405f76c8</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.Dropbox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Dropbox/Dropbox.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>6c9b91bb21522d51a1bc2c08567a026cecd533b6632251291915724c8e92f682</string>
+			</dict>
+			<key>local.jss.Dropbox</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeOverrides/Dropbox/Dropbox.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>834c3eef568f7b0526bd266bbac55dba8fb315c355d34c11ac17d9e7266142f0</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

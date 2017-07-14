@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Adobe Acrobat Pro</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>MAJOR_VERSION</key>
+		<string>10</string>
+		<key>NAME</key>
+		<string>Adobe Acrobat Pro</string>
+		<key>Name</key>
+		<string>AdobeAcrobatProX_Update</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Adobe Acrobat XI Pro is a popular PDF editor and converter developed by Adobe.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Adobe Acrobat Pro.png</string>
+		<key>TARGET_OS</key>
+		<string>10.9</string>
+		<key>VERSION</key>
+		<string>latest</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.AdobeAcrobatPro</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>AdobeAcrobatProUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cc1f09f45a5a5ba1c4d26bbb8bae2c76582886a9</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeAcrobatPro/AdobeAcrobatProUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>25348b0774f7846a26119e5d99dd53a2c93f1f6bb153f9aa4e5a93c4ec369848</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.AdobeAcrobatProXUpdate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cc1f09f45a5a5ba1c4d26bbb8bae2c76582886a9</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeAcrobatPro/AdobeAcrobatProXUpdate.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c6f46257961345740a620f73a9c35ccc3c98c13882bbdbcb55d427edc4b9ec5b</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.AdobeAcrobatPro</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b6f32308dea21bf6ad7c3bb58f5b0a4050f1d415</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Adobe Acrobat Pro/Adobe Acrobat Pro.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>d03bf00e8a54b78108d2f78c4790b7f77023335ddc8b694831a039deab1ccc88</string>
+			</dict>
+			<key>com.github.novaksam.pkg.AdobeAcrobatProXUpdate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>eba3d0160acb4e5d6e2c4fc5c36d236fbc412e11</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/AdobeAcrobatProXUpdate.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>d8c45fe6b3d75450cde67c0671f8694952198cb5ac7b58bf920c741c425c3382</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

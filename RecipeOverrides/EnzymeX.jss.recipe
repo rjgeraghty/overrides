@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.EnzymeX</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>com.mekentosj.enzymex</string>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>DOWNLOAD_URL</key>
+		<string>http://downloads.nucleobytes.com/enzymex.dmg</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>EnzymeX</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>To cut, or not to cut. The award winning EnzymeX app helps molecular biologists to visualize and edit their DNA sequence files.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>pkg_path</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.EnzymeX</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>au.edu.svi.autopkg.pkg.EnzymeX</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/EnzymeX/EnzymeX.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>32135a63325862a2bb84d277f5ed9699f00961b48546045ec58c0e764a55fca2</string>
+			</dict>
+			<key>com.github.bochoven.recipes.download.EnzymeX</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4ed83c8b81f92fead4ece7b2f7e1b7349a6969cc</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.bochoven-recipes/Nucleobytes BV/EnzymeX.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>3ae2fb89ea596a9dcfa2f38b3bb0f5fc71b987ce50605b8e62407f8f88c3149d</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.EnzymeX</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/EnzymeX/EnzymeX.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>c72e0274d9c94f5aba149e7adccb4d7807f57cf0a0d9c3d5406350b721f8cbf7</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

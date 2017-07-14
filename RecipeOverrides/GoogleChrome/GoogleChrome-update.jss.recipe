@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.GoogleChrome-update</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>_Updates</string>
+		<key>DESCRIPTION</key>
+		<string>Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg</string>
+		<key>GROUP_NAME</key>
+		<string>App_%NAME%-update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-update.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/GoogleChrome.png</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>Google Chrome.app</string>
+		<key>NAME</key>
+		<string>GoogleChrome</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.11.x,10.10.x,10.9.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>_Updates</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-update.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>local.jss.GoogleChrome</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.googlechrome</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f29f399c54adee7122e9fdc3c1ea7ed4c67388a4</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/GoogleChrome/GoogleChrome.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>880dbbc39342ba18bb4609a4746be75fa4b41667840201876c0f936aef7599e6</string>
+			</dict>
+			<key>com.github.rtrouton.jss.googlechrome</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b08178ddfe917671742f872fb998ea893f146f9d</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/GoogleChrome.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>4d7be450480c2c16c7984c802b4342175674f1e73e4842fe4f40ed41b347c469</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.googlechrome</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3a3564e58053ad161b7c0d4bc823c7d3fc860e94</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/GoogleChrome/GoogleChrome.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>0c9e46da479e9686709af02f20b2f752f91ca8aa0f9944447139a48b142e9111</string>
+			</dict>
+			<key>local.jss.GoogleChrome</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeOverrides/GoogleChrome/GoogleChrome.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>64ec1d082a0c61d5df6d1bc7938efdcb21515d3737a06546cbcce4de410a4457</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

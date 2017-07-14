@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.AppleJava6</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>AppleJava6</string>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<string>true</string>
+	</dict>
+
+	<key>ParentRecipe</key>
+	<string>com.github.n8felton.download.AppleJava6</string>
+
+
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.n8felton.shared/AppleSupportDownloadInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>228a3c268a6d52727263da64de69d8d23fa4b11c</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/SharedProcessors/AppleSupportDownloadInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cb97c7d29684d437fd11fc5aa9781f5185659d1c0c78d1979b1c32d7f77d90e1</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.n8felton.download.AppleJava6</key>
+			<dict>
+				<key>git_hash</key>
+				<string>340a281e0ef767306afe2393512b7b5718672989</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes/AppleJava/AppleJava6.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2a1c57578eea4b60f6a8977d078e98351d657ca6c79ac3490b9dce473201a5a6</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.IGV</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>org.broad.igv.ui.Main</string>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>DOWNLOAD_URL</key>
+		<string>http://passthrough.fw-notify.net/download/401172/http://data.broadinstitute.org/igv/projects/downloads/IGV_2.3.94.app.zip</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>IGV_2.3.94</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string></string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>pkg_path</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.IGV_2.3.94</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>au.edu.svi.autopkg.download.IGV_2.3.94</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/IGV_2.3.94/IGV_2.3.94.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9a7fb62f1c4a5347c82a3cc3f61b8170a03a0d16ea9576823bd2e3fdd2b464f6</string>
+			</dict>
+			<key>au.edu.svi.autopkg.pkg.IGV_2.3.94</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/IGV_2.3.94/IGV_2.3.94.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>41409e1bbd0a31564fafa7335cac4553753aa6920a6fd0a8ce327e55718a316c</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.IGV_2.3.94</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/IGV_2.3.94/IGV_2.3.94.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>dea1029bbda0fa32f5bf9a91eeaaa6dcb26ec034ee90b2985a67fde8797db2d3</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

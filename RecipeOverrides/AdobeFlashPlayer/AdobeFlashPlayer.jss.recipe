@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.AdobeFlashPlayer</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Plugins and Frameworks</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>AdobeFlashPlayer</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Plugins and Frameworks</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Adobe Flash Player is freeware software for using content created on the Adobe Flash platform, including viewing multimedia, executing rich Internet applications, and streaming video and audio.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>AdobeFlashPlayer.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.AdobeFlashPlayer</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>AdobeFlashURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bbe826806fdfc09cd7ada4b18d9413362d7fc34a</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>2c3456a7cd28037ab7de1b8fd5883743954b665fb7d5aaaec37bf4829a4824e4</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.FlashPlayer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1e13bcf8dd8e90e10c04a5c913842e263499a8e2</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>32cb6011ba302138a63d00ae7640ff104ba0721e2e0d4fcbdcd5085e3b09b1fe</string>
+			</dict>
+			<key>com.github.autopkg.pkg.FlashPlayerExtractPackage</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8cf2b8a33887e46bd0a95c463881d3d0b6ef96b2</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>5e24f13a4eb3cf6d476a0e669025e2582f68e381d1e8d71353ad9d4f487f2a0d</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.AdobeFlashPlayer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/AdobeFlashPlayer/AdobeFlashPlayer.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>c89d937106f22ea5da3add74a1eb9360796dddb29d9917045cf32618db083999</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

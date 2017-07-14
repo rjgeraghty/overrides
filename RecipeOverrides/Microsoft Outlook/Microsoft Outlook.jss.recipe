@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Microsoft Outlook</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>CHANNEL</key>
+		<string>Production</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>LOCALE_ID</key>
+		<string>1033</string>
+		<key>MAJOR_VERSION</key>
+		<string>15</string>
+		<key>NAME</key>
+		<string>Microsoft Outlook</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.12.x,10.11.x,10.10.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Productivity</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Microsoft Outlook is a comprehensive personal information manager. Although often used as an email app, it also includes a calendar, task manager, contact manager, and many other features.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Microsoft Outlook.png</string>
+		<key>VERSION</key>
+		<string>latest</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.MicrosoftOutlook</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MSOffice2016URLandUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d959bb64d28f67fe1574eef46348f8d55b3456db</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOffice2016URLandUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cf74231b7434ec9178548256b98a08958e6db9b459c37d76a26952f4bcbc2cce</string>
+			</dict>
+			<key>com.github.jss-recipes.MSOffice2016VersionChecker/MSOffice2016VersionChecker</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f14f07547c557c61dd97a815b73ed997d9607dd8</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/MSOffice2016VersionChecker/MSOffice2016VersionChecker.py</string>
+				<key>sha256_hash</key>
+				<string>fd547c498cd2ec81f46080a99757a1ce9ac955881b7aab9affd7a6a0dd8a4de8</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.MSOutlook2016</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d49d9febcf853d0809eb99c54cee83ca1ffac997</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOutlook2016.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c363c672d26d507d1c966817c5fa4e910d4386c9b709e9e83e7f8c5c5e92ceca</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.MicrosoftOutlook</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c3c16615a37306e7c886c07be0c202fb3e5c691f</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Microsoft Outlook/Microsoft Outlook.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>fde47f85d1ced1b4ce7ee2b761204a330d1a419cdcb796d67d70126e2a4c4994</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

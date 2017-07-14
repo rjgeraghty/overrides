@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.NIS Elements Viewer</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>com.laboratory-imaging.NIS-Elements-Viewer</string>
+		<key>CATEGORY</key>
+		<string>Digital Media</string>
+		<key>DOWNLOAD_URL</key>
+		<string>http://localhost/NISMacViewerSetup_4.11.0.dmg</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>NIS Elements Viewer</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Digital Media</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string></string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>pkg_path</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.NISElementsViewer</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>au.edu.svi.autopkg.download.NISElementsViewer</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/NIS Elements Viewer/NIS Elements Viewer.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>d70edc97c2dd2cdf1ebde4ebb389aa095a46b54e4387e702b63c5912316117aa</string>
+			</dict>
+			<key>au.edu.svi.autopkg.pkg.NISElementsViewer</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/NIS Elements Viewer/NIS Elements Viewer.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>30b29593c3494195bbfc1a8b6c34afe97cee5484cc54a36106a380758f81440f</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.NISElementsViewer</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/NIS Elements Viewer/NIS Elements Viewer.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>f008382aef0131857a75746bce953b3f498ab94087221387b0f233d992e5bc4d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

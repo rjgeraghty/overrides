@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Microsoft PowerPoint-update</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>_Updates</string>
+		<key>CHANNEL</key>
+		<string>Production</string>
+		<key>GROUP_NAME</key>
+		<string>App_%NAME%-update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-update.xml</string>
+		<key>LOCALE_ID</key>
+		<string>1033</string>
+		<key>MAJOR_VERSION</key>
+		<string>15</string>
+		<key>NAME</key>
+		<string>Microsoft PowerPoint</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.12.x,10.11.x,10.10.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>_Updates</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-update.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Microsoft PowerPoint allows the creation and presentation of professional slide decks.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Microsoft PowerPoint.png</string>
+		<key>VERSION</key>
+		<string>latest</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>local.jss.Microsoft PowerPoint</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MSOffice2016URLandUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d959bb64d28f67fe1574eef46348f8d55b3456db</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOffice2016URLandUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cf74231b7434ec9178548256b98a08958e6db9b459c37d76a26952f4bcbc2cce</string>
+			</dict>
+			<key>com.github.jss-recipes.MSOffice2016VersionChecker/MSOffice2016VersionChecker</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f14f07547c557c61dd97a815b73ed997d9607dd8</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/MSOffice2016VersionChecker/MSOffice2016VersionChecker.py</string>
+				<key>sha256_hash</key>
+				<string>fd547c498cd2ec81f46080a99757a1ce9ac955881b7aab9affd7a6a0dd8a4de8</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.MSPowerPoint2016</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c835cef1f83b1c49ca4739887e53f57d2375d6fc</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSPowerPoint2016.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>b581885cc20a1f7d29fca358d85e37b3e7d453020686e86cb9e9803f9b23b2e2</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.MicrosoftPowerPoint</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c3c16615a37306e7c886c07be0c202fb3e5c691f</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Microsoft PowerPoint/Microsoft PowerPoint.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>641106e68b3d4123f6f742122199f0913b272d7096e20a4f95a768d9f5de2c33</string>
+			</dict>
+			<key>local.jss.Microsoft PowerPoint</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeOverrides/Microsoft PowerPoint.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>034936153a4f2979b55b06b0effdfc38ffe59470a047496b50591f128b382fc3</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

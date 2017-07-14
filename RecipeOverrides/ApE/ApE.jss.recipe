@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.ApE</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>com.tcltk.ape</string>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>DOWNLOAD_URL</key>
+		<string>http://biologylabs.utah.edu/jorgensen/wayned/ape/Download/Mac/ApE_OSX_modern_current.dmg</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>ApE</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>A plasmid Editor by M. Wayne Davis</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>pkg_path</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.ApE</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>au.edu.svi.autopkg.download.ApE</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/ApE/ApE.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c260924048b444f3a95d86a95cb0aeb02c14e376a0535d7ec1f2d72549e0ef9d</string>
+			</dict>
+			<key>au.edu.svi.autopkg.pkg.ApE</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/ApE/ApE.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>60d45da9b52d7115eb048e6afb43a235fe61e6895d716d78a9c2ca21f2448c7a</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.ApE</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/Recipe Robot Output/ApE/ApE.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>dc3eb89d48293e164e24ab485510cece97dd223a4b98bf8d9c647a17fa00ba30</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

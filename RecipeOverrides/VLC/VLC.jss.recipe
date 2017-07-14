@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VLC</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Digital Media</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>VLC</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Digital Media</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>VLC.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.VLC</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.VLC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e9fd841d100d01a4c30c6ecd4b7cc5f2eb42021e</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/VLC/VLC.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>fa7b7123ffe1d932eef69d7d97f8e02c40dfcd0fff46d249439fd5e0dd90783e</string>
+			</dict>
+			<key>com.github.autopkg.pkg.VLC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>27e96308de202d13d6b5619916486c693a48a35c</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/VLC/VLC.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>5502ba34eef0dde192b3a5b2eaef62d05dcb43dee166ea432896b553eb0c6b2a</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.VLC</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/VLC/VLC.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>f13048760370ced33c39fc4d37cb19789ae6d4ee9ace5a85f7e9addb6d4cb20f</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.R</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>R</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.12.x,10.11.x,10.10.x,10.9.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>R is a free software environment for statistical computing and graphics.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>R.png</string>
+		<key>pkg_path</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.R</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.R</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3750db14ff8cd4ade844f151ea5d8dbc8e053b81</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/R/R.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0a8b03ee74d2d7974ab70b9d66975204ebea83b5d071b36f1e24ca123a0af40f</string>
+			</dict>
+			<key>com.github.homebysix.pkg.R</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f013cfee8c8fb7e86fea00b97c4819c0c4f2219a</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/R/R.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>12b996f88a9fe7d45f094c44bbdd8e6abba837e68415fef09e6b6aceee9c8e55</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.R</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ddc7a0602bc636704b23cc50e0e8fc346e173958</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/R/R.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>5ec74bb5cff32dfc477d5977002dca7f77968e9ebe63543fa71203654832838e</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

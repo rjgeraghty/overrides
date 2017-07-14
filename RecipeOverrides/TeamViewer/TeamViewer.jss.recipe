@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.TeamViewer</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Utilities</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://download.teamviewer.com/download/TeamViewer.dmg</string>
+		<key>NAME</key>
+		<string>TeamViewer</string>
+		<key>DESCRIPTION</key>
+		<string>TeamViewer is a popular piece of software used for Internet-based remote access and support. TeamViewer software can connect to any PC or server, so you can remote control your partner's PC as if you were sitting right in front of it</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>POLICY_CATEGORY</key>
+		<string>Utilities</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.justinrummel.jss.TeamViewer</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.justinrummel.jss.TeamViewer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>59878aa76dde852918b6d49e1ac3996056effa6a</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.justinrummel-recipes/TeamViewer/TeamViewer.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>f263fd58b63c8c08e9fbf516b963a54df724a0a89afdcb52436b87c383576cfe</string>
+			</dict>
+			<key>com.justinrummel.pkg.TeamViewer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>21d104855fc7ab6a60cdd40afa22eccfc343beaa</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.justinrummel-recipes/TeamViewer/TeamViewer.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>5498817cca75e396995e719b9280b6a43a1d317c75622b5e5496b56406274f22</string>
+			</dict>
+			<key>io.github.hjuutilainen.download.TeamViewer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>45d9a591c62e730a305afd7ce0d0e05bc6938e65</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/TeamViewer/TeamViewer.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e289e3bfed3537e63044e3de17e33321f65899babf999c0ca67fbb8780e5a82d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

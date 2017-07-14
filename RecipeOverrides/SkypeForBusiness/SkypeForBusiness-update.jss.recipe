@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.SkypeForBusiness-update</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>_Updates</string>
+		<key>CHANNEL</key>
+		<string>Production</string>
+		<key>GROUP_NAME</key>
+		<string>App_%NAME%-update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-update.xml</string>
+		<key>LOCALE_ID</key>
+		<string>1033</string>
+		<key>NAME</key>
+		<string>Skype For Business</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.12.x,10.11.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>_Updates</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-update.xml</string>
+		<key>POLICY_TRIGGER</key>
+		<string>Install_SkypeForBusiness</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Install the latest version of %NAME%.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Skype For Business.png</string>
+		<key>VERSION</key>
+		<string>latest</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>local.jss.SkypeForBusiness</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MSOffice2016URLandUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d959bb64d28f67fe1574eef46348f8d55b3456db</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOffice2016URLandUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>cf74231b7434ec9178548256b98a08958e6db9b459c37d76a26952f4bcbc2cce</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.SkypeForBusiness</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2332e78c11f9b272cf67324baf268421f8312113</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/SkypeForBusiness.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>89a0c4056812e3350251b442ddb7764b2a9f1746b5f44b184810be39c7f7e2e4</string>
+			</dict>
+			<key>com.github.novaksam.jss.SkypeForBusiness</key>
+			<dict>
+				<key>git_hash</key>
+				<string>b9f5986ccc9d59a6dc77ebb63d0f2102eb0f6ddf</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Skype For Business/Skype For Business.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>e5fd2240bd56a4bc1e8fdaa67155e13182de866e2499d099b67bf0347c1406c5</string>
+			</dict>
+			<key>com.github.novaksam.pkg.SkypeForBusiness</key>
+			<dict>
+				<key>git_hash</key>
+				<string>fbbeec4019a6ffc9d6893012ee43f2b8f33161e3</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/SkypeForBusiness.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>610a2847f59858d2e580776de594ca73aff4701f1aefa1cbb6225aff95fd04c9</string>
+			</dict>
+			<key>local.jss.SkypeForBusiness</key>
+			<dict>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeOverrides/SkypeForBusiness/SkypeForBusiness.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>032d44a1fef047c8af9e6d7ce038ad1fd406bf212bd8949c73bc9083985d0680</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

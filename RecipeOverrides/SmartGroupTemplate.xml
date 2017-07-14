@@ -1,0 +1,11 @@
+<computer_group>
+	<name>%group_name%</name>
+	<is_smart>true</is_smart>
+			<criterion>
+			<name>Computer Group</name>
+			<priority>1</priority>
+			<and_or>and</and_or>
+			<search_type>member of</search_type>
+			<value>SVI_Supported Clients</value>
+		</criterion>
+</computer_group>

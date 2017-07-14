@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.ImageJ</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>DESCRIPTION</key>
+		<string>ImageJ is an image processing package which display, edit, analyze, process, save and print 8-bit, 16-bit and 32-bit images.</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/ImageJ.png</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>ImageJ.app</string>
+		<key>NAME</key>
+		<string>ImageJ</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.ImageJ</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.ImageJ</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f08d121745c9065af9d593163f8a61e7710bb7ca</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/ImageJ/ImageJ.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>021533ed583572dc8d6dd86b72c87ea3f6fad02365ef71c29190214398bb2bcf</string>
+			</dict>
+			<key>com.github.rtrouton.jss.ImageJ</key>
+			<dict>
+				<key>git_hash</key>
+				<string>42544a436263fd20e98dc343d47b09d1e0231558</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/ImageJ.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>a4d674b938801341ccf769f94c3c85ca39569ffea7b135acc88dd2dc2a85a841</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.ImageJ</key>
+			<dict>
+				<key>git_hash</key>
+				<string>42544a436263fd20e98dc343d47b09d1e0231558</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/ImageJ/ImageJ.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>95c411bba80bb76a25f6dbe29df64bedb4fc6fcc7a5afc12dc4f447e97195a5f</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

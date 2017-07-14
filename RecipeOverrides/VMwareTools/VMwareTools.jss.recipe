@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VMwareTools</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Utilities</string>
+		<key>DESCRIPTION</key>
+		<string>VMware Tools is a suite of utilities that enhances the performance of a VMware virtual machine's guest operating system and improves management of the virtual machine.</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/VMwareTools.png</string>
+		<key>NAME</key>
+		<string>VMwareTools</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Utilities</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.VMwareTools</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>VMwareGuestToolsURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>dd9a8bbc38e4ed454a5d0b3cadfb28e83afdfb3b</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/VMware-Tools/VMwareGuestToolsURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>c8560f7d84fda89640b173bbdfeceb0ecc4856df0064722e7bf9aa04b8299c13</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.VMwareTools</key>
+			<dict>
+				<key>git_hash</key>
+				<string>217ecaccb161f94c21c5382904dffb755a450a0b</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/VMware-Tools/VMwareTools.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>28bdcd6dd6b231baf76271660e5f56daec4cebfd35c5fc75d05d398384133ba9</string>
+			</dict>
+			<key>com.github.rtrouton.jss.VMwareTools</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9452bdf0ff1fac2d97ecf31b44c5fe57d85be2ea</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/JSS/VMwareTools.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>7ce56379dd1f8077aba6a51531287244007bb6b99a89220ba5ae9b0eea33c0d6</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.VMwareTools</key>
+			<dict>
+				<key>git_hash</key>
+				<string>217ecaccb161f94c21c5382904dffb755a450a0b</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/VMware-Tools/VMwareTools.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>20c0ac71ff9c4f7d1a00f925af090d976b2f4ec3d3a911b89a4fab66a6188931</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

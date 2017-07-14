@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Coot</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>edu.ucsc.scottlab.coot</string>
+		<key>CATEGORY</key>
+		<string>Scientific</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>NAME</key>
+		<string>Coot</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Scientific</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Coot is a graphics program for building, refining and analysing macromolecular models obtained with crystallographic procedures.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Coot.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.jss.Coot</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.homebysix.VersionSplitter/VersionSplitter</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e263778d515ed2e3332f5196eaddc8a0a6f484c7</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/VersionSplitter/VersionSplitter.py</string>
+				<key>sha256_hash</key>
+				<string>dbc83f8a62efbb8a74a56435a5e303a6629cd720cfc9fc3e831ca23cddbe8f3d</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.download.Coot</key>
+			<dict>
+				<key>git_hash</key>
+				<string>720eebfc1710a9981e186cc3ca93fd88803aa521</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Coot/Coot.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>dee661f7d661fa548481833f4b38512adc5da686a88434e3fd23b45eb9b6b8c5</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.jss.Coot</key>
+			<dict>
+				<key>git_hash</key>
+				<string>720eebfc1710a9981e186cc3ca93fd88803aa521</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Coot/Coot.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>a831c2a69b3b59848a1b6d23d4df413bc8cd2f0707d3439b98a4b486bc3ccf0e</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.pkg.Coot</key>
+			<dict>
+				<key>git_hash</key>
+				<string>720eebfc1710a9981e186cc3ca93fd88803aa521</string>
+				<key>path</key>
+				<string>/Users/rgeraghty/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/Coot/Coot.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>4a3f56589aa4111dc8c92897dd12215b83e206e5622fa03454716c6fa5f5d711</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
